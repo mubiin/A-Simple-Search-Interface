@@ -1,0 +1,21 @@
+.Product-img {
+  height: 250px;
+  width: 250px;
+}
+
+.Product-list {
+  list-style-type: none;
+}
+
+#price {
+  font-size: 75%
+}
+
+#atc {
+  padding: .2em;
+  margin-left: 10px;
+}
+
+#load {
+  align-self: center;
+}
