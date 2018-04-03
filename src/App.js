@@ -43,13 +43,11 @@ class App extends Component {
   }
   
 	
-  // By default loading icon should be HIDDEN
   search(query = "") {
     
     var url = "http://es.backpackbang.com:9200/products/amazon/_search?q=title:" + query;
 
     Request.get(url).then((response) => {
-      // HIDE LOADING ICON HERE (as in write code to hide the icon)
       this.setState({
         products: response.body.hits.hits,
         total: response.body.totalResults,
