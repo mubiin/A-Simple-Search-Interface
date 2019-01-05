@@ -17,6 +17,7 @@ class Loading extends Component {
     )
   }
 }
+
 class App extends Component {
   constructor() {
     super();
